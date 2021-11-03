@@ -1,0 +1,12 @@
+01:40:18 **** Incremental Build of configuration Debug for project ex_3 ****
+make all 
+Building file: ../ex_3.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex_3.d" -MT"ex_3.o" -o "ex_3.o" "../ex_3.c"
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0xC0000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [ex_3.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+01:40:18 Build Failed. 1 errors, 0 warnings. (took 245ms)
+

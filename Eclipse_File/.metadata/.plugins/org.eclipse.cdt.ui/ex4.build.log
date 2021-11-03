@@ -1,0 +1,36 @@
+16:22:21 **** Incremental Build of configuration Debug for project ex4 ****
+make all 
+Building file: ../ex4.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex4.d" -MT"ex4.o" -c -o "ex4.o" "../ex4.c"
+In file included from ../ex4.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ex4.c
+ 
+Building target: ex4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex4.map -mmcu=atmega16 -o "ex4.elf"  ./ex4.o   
+Finished building target: ex4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex4.elf  >"ex4.lss"
+Finished building: ex4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3368 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+16:22:22 Build Finished. 0 errors, 1 warnings. (took 762ms)
+

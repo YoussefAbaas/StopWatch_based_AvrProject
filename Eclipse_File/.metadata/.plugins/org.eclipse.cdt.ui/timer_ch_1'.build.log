@@ -1,0 +1,16 @@
+17:38:58 **** Incremental Build of configuration Debug for project timer_ch_1' ****
+make all 
+Building file: ../timer_ch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"timer_ch.d" -MT"timer_ch.o" -c -o "timer_ch.o" "../timer_ch.c"
+In file included from ../timer_ch.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../timer_ch.c
+ 
+/usr/bin/sh: -c: line 1: unexpected EOF while looking for matching `''
+/usr/bin/sh: -c: line 2: syntax error: unexpected end of file
+make: *** [timer_ch_1'.elf] Error 258
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:38:58 Build Failed. 1 errors, 1 warnings. (took 264ms)
+

@@ -1,0 +1,10 @@
+21:42:08 **** Build of configuration Debug for project ex1 ****
+make all 
+Building file: ../ex1.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex1.d" -MT"ex1.o" -c -o "ex1.o" "../ex1.c"
+make: *** [ex1.o] Error -1073741502
+"make all" terminated with exit code 2. Build might be incomplete.
+
+21:42:12 Build Failed. 1 errors, 0 warnings. (took 4s.279ms)
+
